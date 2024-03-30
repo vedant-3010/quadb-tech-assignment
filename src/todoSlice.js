@@ -7,6 +7,7 @@ const initialState = localStorage.getItem('todos')
         { text: 'Learn React', completed: true },
         { text: 'Learn Redux', completed: false },
         { text: 'Build a React App', completed: false },
+        { text: 'Build a Redux App', completed: false}
   ];
 
 const todoSlice = createSlice({
