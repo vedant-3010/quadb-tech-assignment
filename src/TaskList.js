@@ -18,15 +18,18 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles((theme) => ({
   grid: {
     border: "2px solid purple",
-    padding: theme.spacing(2),
     borderRadius: theme.spacing(1),
     boxShadow: theme.shadows[2],
     backgroundColor: theme.palette.background.paper,
-    margin: theme.spacing(2),
+    padding: theme.spacing(2),
+    display: "flex-col",
+    justifyContent: "center",
+    alignItems: "center",
   },
   root: {
-    width: "100%",
     backgroundColor: theme.palette.background.paper,
+    padding: theme.spacing(2),
+    display: "flex-col",
   },
   listItem: {
     padding: theme.spacing(1.5),
@@ -78,7 +81,7 @@ const TaskList = () => {
   const completedTasks = todos.filter((todo) => todo.completed);
 
   return (
-    <Grid container spacing={4}>
+    <Grid container spacing={4} className={classes.root}>
       <Grid item xs={12} sm={6} className={classes.grid}>
         <Typography
           variant="h6"
@@ -87,7 +90,7 @@ const TaskList = () => {
         >
           Current Tasks
         </Typography>
-        <List className={classes.root}>
+        <List>
           {currentTasks.map((todo, index) => (
             <ListItem
               key={index}

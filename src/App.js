@@ -22,9 +22,9 @@ const useStyles = makeStyles((theme) => ({
 const App = () => {
   const classes = useStyles();
   return (
-    <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <Container maxWidth="sm" >
+    <Provider store={store} >
+      <ThemeProvider theme={theme} >
+        <Container maxWidth="sm"  >
           <Typography variant="h3" component="h1" gutterBottom className={classes.root}>
             Todo App
           </Typography>
