@@ -1,70 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Todo App
 
-## Available Scripts
+A simple and intuitive Todo application built with React and Redux. The application allows users to add, view, toggle, and delete tasks, with separate sections for current and completed tasks.
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+You can check out the live demo of the Todo App [here](https://quadb-tech-assignment-two.vercel.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   Add new tasks
+-   View current and completed tasks in separate sections
+-   Mark tasks as completed by toggling their status
+-   Delete tasks from either the current or completed section
+-   Responsive design for optimal viewing on different devices
+-   Persistent data storage using local storage
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   React
+-   Redux
+-   Redux Toolkit
+-   Material-UI
+-   React Hooks
+-   Local Storage
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the Todo App locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Copy code
 
-### `npm run eject`
+`https://github.com/vedant-3010/quadb-tech-assignment.git`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.  Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Copy code
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`cd quadb-tech-assignment`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3.  Install the required dependencies:
 
-## Learn More
+Copy code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4.  Start the development server:
 
-### Code Splitting
+Copy code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`npm start`
 
-### Analyzing the Bundle Size
+5.  Open your web browser and visit  `http://localhost:3000`  to see the Todo App running.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+1.  Add a new task by typing it into the input field and clicking the "Add Task" button or pressing Enter.
+2.  View the current and completed tasks in their respective sections.
+3.  Toggle the status of a task by clicking on it. Completed tasks will have a line-through text decoration.
+4.  Delete a task by clicking on the delete icon (trashcan) next to the task.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the [MIT License](https://claude.ai/chat/LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   [React](https://reactjs.org/)
+-   [Redux](https://redux.js.org/)
+-   [Redux Toolkit](https://redux-toolkit.js.org/)
+-   [Material-UI](https://material-ui.com/)
